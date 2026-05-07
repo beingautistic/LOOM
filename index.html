@@ -3348,8 +3348,487 @@
         </div>
     </div>
 
-    <script src="site-content.js"></script>
-    <script src="script.js"></script>
+    <script>
+        window.SITE_CONTENT = {
+            hero: {
+                title: "Scroll through our creative reels",
+                subtitle: "Experience our best work like a movie trailer. Swipe horizontally to explore projects.",
+                badgeText: "🎬 ALWAYS DELIVER BETTER OUTPUT WHAT PROMISSED"
+            },
+            reels: [
+                {
+                    id: "01",
+                    title: "LINKEDIN CONTENT",
+                    description: "How we cracked the LinkedIn algorithm to hit 100K+ impressions with a single, strategically crafted story.",
+                    tag: "LinkedIn Strategy",
+                    videoSrc: "https://vimeo.com/1189291731",
+                    gradient: "linear-gradient(135deg, var(--teal), var(--teal-dark))"
+                },
+                {
+                    id: "02",
+                    title: "PODCAST PRE-LAUNCH TRAILER",
+                    description: "Viral pre-launch strategy that built massive hype and listeners before day one.",
+                    tag: "Strategy",
+                    videoSrc: "https://vimeo.com/1188744077",
+                    gradient: "linear-gradient(135deg, var(--yellow), hsl(45, 100%, 50%))"
+                },
+                {
+                    id: "03",
+                    title: "BUSINESS MARKETING",
+                    description: "Strategic brand storytelling that bridges the gap between your vision and your target audience's needs.",
+                    tag: "Growth Strategy",
+                    videoSrc: "https://vimeo.com/1189291788",
+                    gradient: "linear-gradient(135deg, var(--teal-dark), var(--teal))"
+                },
+                {
+                    id: "04",
+                    title: "INSTAGRAM REEL LAUNCH",
+                    description: "1 MILLION VIEWS UNDER ONE WEEK — Optimized for viral engagement.",
+                    tag: "Video Editing",
+                    videoSrc: "https://vimeo.com/1188744076",
+                    gradient: "linear-gradient(135deg, var(--orange), var(--orange-light))"
+                },
+                {
+                    id: "05",
+                    title: "Short-Form Mastery",
+                    description: "Viral TikTok/Reels strategy resulting in 2M+ organic reach",
+                    tag: "Content",
+                    videoSrc: "https://vimeo.com/1189291746",
+                    gradient: "linear-gradient(135deg, var(--orange-light), var(--orange))"
+                },
+                {
+                    id: "06",
+                    title: "Content Calendar & Plan",
+                    description: "12-month strategy with 87% execution rate",
+                    tag: "Strategy",
+                    videoSrc: "https://assets.mixkit.co/videos/preview/mixkit-waves-coming-to-the-beach-shore-at-sunset-1210-large.mp4",
+                    gradient: "linear-gradient(135deg, var(--yellow-dark), var(--yellow))"
+                }
+            ],
+            videoTrailer: {
+                label: "COMING SOON",
+                title: "Our VSL",
+                subtitle: "Something big is on the way. Stay tuned for our business strategy video.",
+                videoSrc: ""
+            },
+            contact: {
+                formspreeId: "xpwvjybd",
+                email: "hello@loomsthropic.com",
+                address: "Creative Studio, London, UK",
+                socials: [
+                    { name: "Instagram", url: "#" },
+                    { name: "LinkedIn", url: "#" },
+                    { name: "Twitter", url: "#" }
+                ]
+            },
+            logos: [
+                "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+                "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+                "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+                "https://upload.wikimedia.org/wikipedia/commons/b/b1/Tesla_Motors.svg",
+                "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
+            ],
+            process: [
+                { step: "01", title: "EVERY IDEA YOU HAVE", desc: "Bring your raw concepts, scattered notes, or even just a spark. We listen to everything." },
+                { step: "02", title: "WHAT WE CAN ADD", desc: "Our strategists enhance your ideas with viral hooks, market research, and proven storytelling frameworks." },
+                { step: "03", title: "PROCESS", desc: "Cinematic filming, surgical editing, and high-conversion copywriting come together in our studio." },
+                { step: "04", title: "OUTPUT", desc: "Final assets ready for global distribution that actually move the needle for your brand." }
+            ],
+            faqs: [
+                { q: "What is your typical turnaround time?", a: "Most projects are delivered within 7-10 business days, depending on the complexity." },
+                { q: "Do you offer custom content packages?", a: "Yes! We tailor every package to your specific business needs and growth goals." },
+                { q: "Will I own the rights to the content?", a: "Absolutely. Once the final payment is made, you own 100% of the rights to all delivered assets." }
+            ],
+            portfolio: [
+                {
+                    title: "LINKEDIN CONTENT",
+                    category: "video",
+                    categoryLabel: "LinkedIn Strategy | Growth",
+                    mediaSrc: "https://vimeo.com/1189291731",
+                    type: "video"
+                },
+                {
+                    title: "E-commerce Campaign",
+                    category: "copy",
+                    categoryLabel: "Copywriting | Ads",
+                    mediaSrc: "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=800",
+                    type: "image"
+                },
+                {
+                    title: "PODCAST PRE-LAUNCH TRAILER",
+                    category: "strategy",
+                    categoryLabel: "Strategy | Content",
+                    mediaSrc: "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&q=80&w=800",
+                    type: "image"
+                },
+                {
+                    title: "Instagram Reels Package",
+                    category: "video",
+                    categoryLabel: "Video Editing",
+                    mediaSrc: "https://vimeo.com/1188744076",
+                    type: "video"
+                },
+                {
+                    title: "Email Marketing Sequence",
+                    category: "copy",
+                    categoryLabel: "Copywriting",
+                    mediaSrc: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=800",
+                    type: "image"
+                },
+                {
+                    title: "Content Calendar & Plan",
+                    category: "strategy",
+                    categoryLabel: "Strategy",
+                    mediaSrc: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&q=80&w=800",
+                    type: "image"
+                }
+            ],
+            projectDetails: {
+                "04": { challenge: "Struggling to break the 10K views barrier.", solution: "High-retention editing and viral-ready hooks.", result: "1M+ Views in 7 days." },
+                "01": { challenge: "Struggling with low LinkedIn engagement.", solution: "Viral hook research and cinematic short-form editing.", result: "100K+ Impressions in one night." }
+            }
+        };
+
+        // DYNAMIC RENDERER
+        function initDynamicContent() {
+            // Hero
+            document.getElementById('heroTitle').innerHTML = SITE_CONTENT.hero.title;
+            document.getElementById('heroSubtitle').textContent = SITE_CONTENT.hero.subtitle;
+            document.getElementById('heroBadge').innerHTML = `${SITE_CONTENT.hero.badgeText}`;
+
+            // Reels
+            const reelTrack = document.getElementById('reelTrack');
+            if (reelTrack && SITE_CONTENT.reels) {
+                try {
+                    reelTrack.innerHTML = SITE_CONTENT.reels.map(reel => {
+                        const isVimeo = reel.videoSrc && reel.videoSrc.includes('vimeo.com');
+                        const vimeoId = isVimeo ? reel.videoSrc.split('/').pop().split('?')[0] : '';
+
+                        return `
+                <div class="reel-card" data-video-src="${reel.videoSrc || ''}">
+                    ${isVimeo ?
+                                `<iframe class="reel-video" src="https://player.vimeo.com/video/${vimeoId}?background=1&autoplay=1&muted=1&loop=1" frameborder="0" allow="autoplay; fullscreen" style="pointer-events: none;"></iframe>` :
+                                `<video class="reel-video" autoplay muted loop playsinline>
+                            <source src="${reel.videoSrc || ''}" type="video/mp4">
+                        </video>`
+                            }
+                    <div class="reel-card-overlay">
+                        <div class="reel-card-number">${reel.id}</div>
+                        <div class="reel-card-title">${reel.title}</div>
+                        <div class="reel-card-desc">${reel.description}</div>
+                        <div class="reel-card-tag">${reel.tag}</div>
+                    </div>
+                </div>
+            `;
+                    }).join('');
+                } catch (e) {
+                    console.error("Error rendering reels:", e);
+                }
+
+                // Initialize events for newly created cards
+                const reelCards = reelTrack.querySelectorAll('.reel-card');
+                reelCards.forEach((card, index) => {
+                    card.addEventListener('click', () => {
+                        openReelPlayer(index);
+                    });
+                });
+            }
+
+            // REEL PLAYER LOGIC
+            const reelPlayer = document.getElementById('reelPlayer');
+            const playerVideo = document.getElementById('playerVideo');
+            const closePlayer = document.getElementById('closePlayer');
+            const pTitle = document.getElementById('pTitle');
+            const pDesc = document.getElementById('pDesc');
+            const pTag = document.getElementById('pTag');
+            const pNext = document.getElementById('pNext');
+            const pPrev = document.getElementById('pPrev');
+            let currentReelIndex = 0;
+
+            function openReelPlayer(index) {
+                currentReelIndex = index;
+                const reel = SITE_CONTENT.reels[index];
+                if (!reel) return;
+
+                pTitle.textContent = reel.title;
+                pDesc.textContent = reel.description;
+                pTag.textContent = reel.tag;
+
+                const vimeoContainer = document.getElementById('vimeoPlayerContainer');
+                const isVimeo = reel.videoSrc && reel.videoSrc.includes('vimeo.com');
+
+                if (isVimeo) {
+                    const vimeoId = reel.videoSrc.split('/').pop().split('?')[0];
+                    playerVideo.style.display = 'none';
+                    vimeoContainer.style.display = 'block';
+                    vimeoContainer.innerHTML = `<iframe src="https://player.vimeo.com/video/${vimeoId}?autoplay=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="width:100%;height:100%;position:absolute;top:0;left:0;"></iframe>`;
+                } else {
+                    vimeoContainer.style.display = 'none';
+                    playerVideo.style.display = 'block';
+                    playerVideo.src = reel.videoSrc;
+                    playerVideo.load();
+                    playerVideo.play().catch(e => console.log("Auto-play blocked"));
+                }
+
+                reelPlayer.classList.add('active');
+            }
+
+            function closeReelPlayer() {
+                reelPlayer.classList.remove('active');
+                playerVideo.pause();
+                playerVideo.src = "";
+                document.getElementById('vimeoPlayerContainer').innerHTML = "";
+            }
+
+            closePlayer?.addEventListener('click', closeReelPlayer);
+            reelPlayer?.addEventListener('click', (e) => {
+                if (e.target === reelPlayer) closeReelPlayer();
+            });
+
+            pNext?.addEventListener('click', (e) => {
+                e.stopPropagation();
+                currentReelIndex = (currentReelIndex + 1) % SITE_CONTENT.reels.length;
+                openReelPlayer(currentReelIndex);
+            });
+
+            pPrev?.addEventListener('click', (e) => {
+                e.stopPropagation();
+                currentReelIndex = (currentReelIndex - 1 + SITE_CONTENT.reels.length) % SITE_CONTENT.reels.length;
+                openReelPlayer(currentReelIndex);
+            });
+
+            // Video Trailer
+            document.getElementById('vLabel').textContent = SITE_CONTENT.videoTrailer.label;
+            document.getElementById('vTitle').textContent = SITE_CONTENT.videoTrailer.title;
+            document.getElementById('vSubtitle').textContent = SITE_CONTENT.videoTrailer.subtitle;
+            const vSource = document.getElementById('vSource');
+            const trailerVideo = document.getElementById('trailerVideo');
+            const vPlaceholder = document.getElementById('vPlaceholder');
+
+            if (SITE_CONTENT.videoTrailer.videoSrc) {
+                if (SITE_CONTENT.videoTrailer.videoSrc.includes('vimeo.com')) {
+                    const vimeoId = SITE_CONTENT.videoTrailer.videoSrc.split('/').pop().split('?')[0];
+                    const wrapper = trailerVideo.parentElement;
+                    wrapper.innerHTML = `<iframe src="https://player.vimeo.com/video/${vimeoId}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="width:100%;height:500px;border-radius:12px;"></iframe>`;
+                } else if (vSource) {
+                    vSource.src = SITE_CONTENT.videoTrailer.videoSrc;
+                    trailerVideo.style.display = 'block';
+                    vPlaceholder.style.display = 'none';
+                    trailerVideo.load();
+                }
+            } else {
+                trailerVideo.style.display = 'none';
+                vPlaceholder.style.display = 'flex';
+            }
+
+            // Process
+            const processGrid = document.getElementById('processGrid');
+            if (processGrid) {
+                processGrid.innerHTML = `
+            <div class="process-path-line"></div>
+            <div class="process-path-spark"></div>
+        ` + SITE_CONTENT.process.map((p, index) => `
+  <div class="process-card reveal" style="transition-delay: ${index * 0.2}s">
+    <div class="step-num">${p.step}</div>
+    <h4>${p.title}</h4>
+    <p>${p.desc}</p>
+  </div>
+`).join('');
+            }
+
+            // FAQ
+            const faqContainer = document.getElementById('faqContainer');
+            if (faqContainer) {
+                faqContainer.innerHTML = SITE_CONTENT.faqs.map(f => `
+  <div class="faq-item reveal">
+    <button class="faq-question">
+      ${f.q}
+      <span class="faq-icon">+</span>
+    </button>
+    <div class="faq-answer">
+      <p>${f.a}</p>
+    </div>
+  </div>
+`).join('');
+            }
+        }
+
+        // CURSOR LOGIC REMOVED
+
+
+
+        // NAV TOGGLE
+        const nav = document.getElementById('navbar');
+        const navToggle = document.getElementById('navToggle');
+        const navLinks = nav.querySelectorAll('ul a');
+
+        navToggle.addEventListener('click', () => {
+            nav.classList.toggle('mobile-open');
+            document.body.style.overflow = nav.classList.contains('mobile-open') ? 'hidden' : '';
+        });
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                nav.classList.remove('mobile-open');
+                document.body.style.overflow = '';
+            });
+        });
+
+        window.addEventListener('scroll', () => { nav.classList.toggle('scrolled', window.scrollY > 40); });
+
+        // REVEAL ANIMATIONS
+        function initReveals() {
+            const reveals = document.querySelectorAll('.reveal');
+            const revealObserver = new IntersectionObserver(entries => {
+                entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); } });
+            }, { threshold: 0.1 });
+            reveals.forEach(r => revealObserver.observe(r));
+        }
+        initReveals();
+
+        // HORIZONTAL SCROLLER LOGIC (OPTIMIZED)
+        const reelTrack = document.getElementById('reelTrack');
+        const reelPrev = document.getElementById('reelPrev');
+        const reelNext = document.getElementById('reelNext');
+
+        if (reelTrack) {
+            let isDown = false;
+            let startX;
+            let scrollLeft;
+            let scrollVel = 0.8; // Base speed
+            let isPaused = false;
+            let rafId;
+
+            const step = () => {
+                if (!isDown && !isPaused) {
+                    reelTrack.scrollLeft += scrollVel;
+                    if (reelTrack.scrollLeft + reelTrack.clientWidth >= reelTrack.scrollWidth - 1) {
+                        reelTrack.scrollLeft = 0;
+                    }
+                }
+                rafId = requestAnimationFrame(step);
+            };
+
+            reelTrack.addEventListener('mousedown', (e) => {
+                isDown = true;
+                reelTrack.classList.add('grabbing');
+                startX = e.pageX - reelTrack.offsetLeft;
+                scrollLeft = reelTrack.scrollLeft;
+            });
+
+            reelTrack.addEventListener('mouseleave', () => {
+                isDown = false;
+                reelTrack.classList.remove('grabbing');
+            });
+
+            reelTrack.addEventListener('mouseup', () => {
+                isDown = false;
+                reelTrack.classList.remove('grabbing');
+            });
+
+            reelTrack.addEventListener('mousemove', (e) => {
+                if (!isDown) return;
+                e.preventDefault();
+                const x = e.pageX - reelTrack.offsetLeft;
+                const walk = (x - startX) * 2;
+                reelTrack.scrollLeft = scrollLeft - walk;
+            });
+
+            // Touch support for scroller
+            reelTrack.addEventListener('touchstart', () => { isPaused = true; }, { passive: true });
+            reelTrack.addEventListener('touchend', () => {
+                setTimeout(() => { isPaused = false; }, 2000);
+            }, { passive: true });
+
+            reelNext?.addEventListener('click', () => {
+                reelTrack.scrollBy({ left: 400, behavior: 'smooth' });
+                isPaused = true;
+                setTimeout(() => { isPaused = false; }, 4000);
+            });
+
+            reelPrev?.addEventListener('click', () => {
+                reelTrack.scrollBy({ left: -400, behavior: 'smooth' });
+                isPaused = true;
+                setTimeout(() => { isPaused = false; }, 4000);
+            });
+
+            // Card hover logic
+            setTimeout(() => {
+                const reelCards = document.querySelectorAll('.reel-card');
+                reelCards.forEach(card => {
+                    card.addEventListener('mouseenter', () => {
+                        isPaused = true;
+                    });
+                    card.addEventListener('mouseleave', () => {
+                        isPaused = false;
+                    });
+                });
+            }, 1000);
+
+            rafId = requestAnimationFrame(step);
+        }
+
+
+
+        // TESTIMONIALS
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.testimonial-slide');
+        if (slides.length > 0) {
+            const showSlide = (n) => {
+                slides.forEach(s => s.classList.remove('active'));
+                slides[n].classList.add('active');
+            };
+            document.getElementById('nextTestimonial')?.addEventListener('click', () => {
+                currentSlide = (currentSlide + 1) % slides.length;
+                showSlide(currentSlide);
+            });
+            document.getElementById('prevTestimonial')?.addEventListener('click', () => {
+                currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+                showSlide(currentSlide);
+            });
+            setInterval(() => {
+                currentSlide = (currentSlide + 1) % slides.length;
+                showSlide(currentSlide);
+            }, 8000);
+        }
+
+        // FAQ ACCORDION
+        document.addEventListener('click', e => {
+            const q = e.target.closest('.faq-question');
+            if (q) {
+                const item = q.parentElement;
+                item.classList.toggle('active');
+            }
+        });
+
+
+
+        // NEWSLETTER
+        document.getElementById('newsletterForm')?.addEventListener('submit', e => {
+            e.preventDefault();
+            const btn = e.target.querySelector('button');
+            btn.textContent = 'Subscribed!';
+            e.target.reset();
+        });
+
+        // INITIALIZE
+        initDynamicContent();
+        initReveals(); // Re-initialize to catch dynamic elements
+
+        console.log('LOOMSTHROPIC — Full-Stack Ready! 🚀');
+
+        // PRELOADER HIDE
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                const preloader = document.getElementById('preloader');
+                if (preloader) {
+                    preloader.classList.add('loaded');
+                    document.body.classList.add('loaded');
+                    document.body.classList.remove('preloader-active');
+                }
+            }, 2000);
+        });
+    </script>
 </body>
 
 </html>
